@@ -1,5 +1,5 @@
 //
-//  Market.swift
+//  Charity.swift
 //  Carity2
 //
 //  Created by Sandeep shahi on 10/6/18.
@@ -8,26 +8,16 @@
 
 import UIKit
 
-class Market: UIViewController {
+class Charity: UIViewController {
 
-    @IBAction func donateButton2Pressed(_ sender: Any)
+    @IBAction func backPressed(_ sender: Any)
     {
-        self.performSegue(withIdentifier: "goCharity", sender: self)
-    }
-    @IBOutlet weak var cuteImg: UIImageView!
-    @IBOutlet weak var donateButton2: UIButton!
-    @IBOutlet weak var donateButton: UIButton!
-    @IBAction func donatePressed(_ sender: Any)
-    {
-        //go to donation page
+        self.dismiss(animated: true, completion: nil)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        donateButton.layer.cornerRadius = 5
-        donateButton2.layer.cornerRadius = 15
-        cuteImg.layer.cornerRadius = 5
     }
     
 
