@@ -100,4 +100,3 @@ public VisionServiceClient visionServiceClient = new VisionServiceRestClient("a7
 
     }
 }
- 
