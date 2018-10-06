@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAC3CC362168A43B00933353 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC3CC352168A43B00933353 /* AppDelegate.swift */; };
+		FAC3CC382168A43B00933353 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC3CC372168A43B00933353 /* ViewController.swift */; };
+		FAC3CC3B2168A43B00933353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC3CC392168A43B00933353 /* Main.storyboard */; };
+		FAC3CC3D2168A43B00933353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC3CC3C2168A43B00933353 /* Assets.xcassets */; };
+		FAC3CC402168A43C00933353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC3CC3E2168A43C00933353 /* LaunchScreen.storyboard */; };
+		FAC3CC4B2168A43C00933353 /* CarityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC3CC4A2168A43C00933353 /* CarityTests.swift */; };
+		FAC3CC562168A43C00933353 /* CarityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC3CC552168A43C00933353 /* CarityUITests.swift */; };
+		FAC3CC642168A92400933353 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC3CC632168A92400933353 /* Home.swift */; };
+		FAC3CC662168AD6A00933353 /* Marketplace.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC3CC652168AD6A00933353 /* Marketplace.swift */; };
+		FAC3CC682168B6DA00933353 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC3CC672168B6DA00933353 /* Signup.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAC3CC472168A43C00933353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC3CC2A2168A43B00933353 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC3CC312168A43B00933353;
+			remoteInfo = Carity;
+		};
+		FAC3CC522168A43C00933353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC3CC2A2168A43B00933353 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC3CC312168A43B00933353;
+			remoteInfo = Carity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAC3CC322168A43B00933353 /* Carity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC3CC352168A43B00933353 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAC3CC372168A43B00933353 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAC3CC3A2168A43B00933353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAC3CC3C2168A43B00933353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC3CC3F2168A43C00933353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAC3CC412168A43C00933353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC3CC462168A43C00933353 /* CarityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC3CC4A2168A43C00933353 /* CarityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarityTests.swift; sourceTree = "<group>"; };
+		FAC3CC4C2168A43C00933353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC3CC512168A43C00933353 /* CarityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC3CC552168A43C00933353 /* CarityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarityUITests.swift; sourceTree = "<group>"; };
+		FAC3CC572168A43C00933353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC3CC632168A92400933353 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		FAC3CC652168AD6A00933353 /* Marketplace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Marketplace.swift; sourceTree = "<group>"; };
+		FAC3CC672168B6DA00933353 /* Signup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC3CC2F2168A43B00933353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC3CC432168A43C00933353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC3CC4E2168A43C00933353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC3CC292168A43B00933353 = {
+			isa = PBXGroup;
+			children = (
+				FAC3CC342168A43B00933353 /* Carity */,
+				FAC3CC492168A43C00933353 /* CarityTests */,
+				FAC3CC542168A43C00933353 /* CarityUITests */,
+				FAC3CC332168A43B00933353 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC3CC332168A43B00933353 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC3CC322168A43B00933353 /* Carity.app */,
+				FAC3CC462168A43C00933353 /* CarityTests.xctest */,
+				FAC3CC512168A43C00933353 /* CarityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC3CC342168A43B00933353 /* Carity */ = {
+			isa = PBXGroup;
+			children = (
+				FAC3CC352168A43B00933353 /* AppDelegate.swift */,
+				FAC3CC392168A43B00933353 /* Main.storyboard */,
+				FAC3CC372168A43B00933353 /* ViewController.swift */,
+				FAC3CC3C2168A43B00933353 /* Assets.xcassets */,
+				FAC3CC3E2168A43C00933353 /* LaunchScreen.storyboard */,
+				FAC3CC412168A43C00933353 /* Info.plist */,
+				FAC3CC632168A92400933353 /* Home.swift */,
+				FAC3CC652168AD6A00933353 /* Marketplace.swift */,
+				FAC3CC672168B6DA00933353 /* Signup.swift */,
+			);
+			path = Carity;
+			sourceTree = "<group>";
+		};
+		FAC3CC492168A43C00933353 /* CarityTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC3CC4A2168A43C00933353 /* CarityTests.swift */,
+				FAC3CC4C2168A43C00933353 /* Info.plist */,
+			);
+			path = CarityTests;
+			sourceTree = "<group>";
+		};
+		FAC3CC542168A43C00933353 /* CarityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC3CC552168A43C00933353 /* CarityUITests.swift */,
+				FAC3CC572168A43C00933353 /* Info.plist */,
+			);
+			path = CarityUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC3CC312168A43B00933353 /* Carity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC3CC5A2168A43C00933353 /* Build configuration list for PBXNativeTarget "Carity" */;
+			buildPhases = (
+				FAC3CC2E2168A43B00933353 /* Sources */,
+				FAC3CC2F2168A43B00933353 /* Frameworks */,
+				FAC3CC302168A43B00933353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Carity;
+			productName = Carity;
+			productReference = FAC3CC322168A43B00933353 /* Carity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAC3CC452168A43C00933353 /* CarityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC3CC5D2168A43C00933353 /* Build configuration list for PBXNativeTarget "CarityTests" */;
+			buildPhases = (
+				FAC3CC422168A43C00933353 /* Sources */,
+				FAC3CC432168A43C00933353 /* Frameworks */,
+				FAC3CC442168A43C00933353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC3CC482168A43C00933353 /* PBXTargetDependency */,
+			);
+			name = CarityTests;
+			productName = CarityTests;
+			productReference = FAC3CC462168A43C00933353 /* CarityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAC3CC502168A43C00933353 /* CarityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC3CC602168A43C00933353 /* Build configuration list for PBXNativeTarget "CarityUITests" */;
+			buildPhases = (
+				FAC3CC4D2168A43C00933353 /* Sources */,
+				FAC3CC4E2168A43C00933353 /* Frameworks */,
+				FAC3CC4F2168A43C00933353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC3CC532168A43C00933353 /* PBXTargetDependency */,
+			);
+			name = CarityUITests;
+			productName = CarityUITests;
+			productReference = FAC3CC512168A43C00933353 /* CarityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC3CC2A2168A43B00933353 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Chennasri Kaveti";
+				TargetAttributes = {
+					FAC3CC312168A43B00933353 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					FAC3CC452168A43C00933353 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAC3CC312168A43B00933353;
+					};
+					FAC3CC502168A43C00933353 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAC3CC312168A43B00933353;
+					};
+				};
+			};
+			buildConfigurationList = FAC3CC2D2168A43B00933353 /* Build configuration list for PBXProject "Carity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC3CC292168A43B00933353;
+			productRefGroup = FAC3CC332168A43B00933353 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC3CC312168A43B00933353 /* Carity */,
+				FAC3CC452168A43C00933353 /* CarityTests */,
+				FAC3CC502168A43C00933353 /* CarityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC3CC302168A43B00933353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3CC402168A43C00933353 /* LaunchScreen.storyboard in Resources */,
+				FAC3CC3D2168A43B00933353 /* Assets.xcassets in Resources */,
+				FAC3CC3B2168A43B00933353 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC3CC442168A43C00933353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC3CC4F2168A43C00933353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC3CC2E2168A43B00933353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3CC382168A43B00933353 /* ViewController.swift in Sources */,
+				FAC3CC682168B6DA00933353 /* Signup.swift in Sources */,
+				FAC3CC662168AD6A00933353 /* Marketplace.swift in Sources */,
+				FAC3CC642168A92400933353 /* Home.swift in Sources */,
+				FAC3CC362168A43B00933353 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC3CC422168A43C00933353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3CC4B2168A43C00933353 /* CarityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC3CC4D2168A43C00933353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3CC562168A43C00933353 /* CarityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAC3CC482168A43C00933353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC3CC312168A43B00933353 /* Carity */;
+			targetProxy = FAC3CC472168A43C00933353 /* PBXContainerItemProxy */;
+		};
+		FAC3CC532168A43C00933353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC3CC312168A43B00933353 /* Carity */;
+			targetProxy = FAC3CC522168A43C00933353 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAC3CC392168A43B00933353 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC3CC3A2168A43B00933353 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAC3CC3E2168A43C00933353 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC3CC3F2168A43C00933353 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC3CC582168A43C00933353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAC3CC592168A43C00933353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC3CC5B2168A43C00933353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Carity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cskaveti.Carity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FAC3CC5C2168A43C00933353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Carity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cskaveti.Carity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FAC3CC5E2168A43C00933353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cskaveti.CarityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carity.app/Carity";
+			};
+			name = Debug;
+		};
+		FAC3CC5F2168A43C00933353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cskaveti.CarityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carity.app/Carity";
+			};
+			name = Release;
+		};
+		FAC3CC612168A43C00933353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CarityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cskaveti.CarityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Carity;
+			};
+			name = Debug;
+		};
+		FAC3CC622168A43C00933353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CarityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cskaveti.CarityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Carity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC3CC2D2168A43B00933353 /* Build configuration list for PBXProject "Carity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC3CC582168A43C00933353 /* Debug */,
+				FAC3CC592168A43C00933353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC3CC5A2168A43C00933353 /* Build configuration list for PBXNativeTarget "Carity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC3CC5B2168A43C00933353 /* Debug */,
+				FAC3CC5C2168A43C00933353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC3CC5D2168A43C00933353 /* Build configuration list for PBXNativeTarget "CarityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC3CC5E2168A43C00933353 /* Debug */,
+				FAC3CC5F2168A43C00933353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC3CC602168A43C00933353 /* Build configuration list for PBXNativeTarget "CarityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC3CC612168A43C00933353 /* Debug */,
+				FAC3CC622168A43C00933353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC3CC2A2168A43B00933353 /* Project object */;
+}
