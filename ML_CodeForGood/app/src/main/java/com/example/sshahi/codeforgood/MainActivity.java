@@ -51,7 +51,7 @@ public VisionServiceClient visionServiceClient = new VisionServiceRestClient("a7
                     protected String doInBackground(InputStream... params) {
                          try{
                              publishProgress("Recognizing....");
-                             String[] features = {"Discription"};
+                             String[] features = {"Description"};
                              String[] details = {};
                              AnalysisResult result = visionServiceClient.analyzeImage(params[0],features, details);
 
