@@ -16,6 +16,7 @@
 		2CE4EF9A2168F44E00654AD0 /* Carity2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4EF992168F44E00654AD0 /* Carity2UITests.swift */; };
 		2CE4EFA82168F50A00654AD0 /* Landing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4EFA72168F50A00654AD0 /* Landing.swift */; };
 		2CE4EFAA2168FE6500654AD0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4EFA92168FE6500654AD0 /* Home.swift */; };
+		2CE4EFAC2169038F00654AD0 /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4EFAB2169038F00654AD0 /* Market.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2CE4EF9B2168F44E00654AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CE4EFA72168F50A00654AD0 /* Landing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landing.swift; sourceTree = "<group>"; };
 		2CE4EFA92168FE6500654AD0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		2CE4EFAB2169038F00654AD0 /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				2CE4EF852168F44E00654AD0 /* Info.plist */,
 				2CE4EFA72168F50A00654AD0 /* Landing.swift */,
 				2CE4EFA92168FE6500654AD0 /* Home.swift */,
+				2CE4EFAB2169038F00654AD0 /* Market.swift */,
 			);
 			path = Carity2;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				2CE4EF7C2168F44C00654AD0 /* ViewController.swift in Sources */,
 				2CE4EFAA2168FE6500654AD0 /* Home.swift in Sources */,
 				2CE4EF7A2168F44C00654AD0 /* AppDelegate.swift in Sources */,
+				2CE4EFAC2169038F00654AD0 /* Market.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

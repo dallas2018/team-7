@@ -1,5 +1,5 @@
 //
-//  Landing.swift
+//  Market.swift
 //  Carity2
 //
 //  Created by Sandeep shahi on 10/6/18.
@@ -8,21 +8,12 @@
 
 import UIKit
 
-class Landing: UIViewController
-{
+class Market: UIViewController {
 
-    @IBOutlet weak var password: UITextField!
-    @IBOutlet weak var email: UITextField!
-    @IBAction func loginPressed(_ sender: Any)
-    {
-        self.performSegue(withIdentifier: "goMarket", sender: self)
-    }
-    @IBOutlet weak var loginButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        loginButton.layer.cornerRadius = 15
     }
     
 
